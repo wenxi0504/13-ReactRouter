@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { link } from "react-router-dom";
 
 const MainHeader = () => {
   return (
@@ -6,10 +6,10 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <Link href="/welcome">Welcome</Link>
+            <a href="/welcome">Welcome</a>
           </li>
           <li>
-            <Link href="/products">Products</Link>
+            <a href="/products">Products</a>
           </li>
         </ul>
       </nav>
