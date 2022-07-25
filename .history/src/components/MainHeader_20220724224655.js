@@ -6,13 +6,10 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            {/* <Link href="/welcome">Welcome</Link> */}
-            <NavLink activeClassName={classes.active} to="/welcome">
-              Welcome
-            </NavLink>
+            <Link href="/welcome">Welcome</Link>
           </li>
           <li>
-            <NavLink to="/products">Products</NavLink>
+            <Link href="/products">Products</Link>
           </li>
         </ul>
       </nav>
