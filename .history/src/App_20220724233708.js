@@ -11,7 +11,7 @@ function App() {
       <main>
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/welcome" />
+            <h1></h1>
           </Route>
           <Route path="/welcome">
             <Welcome />
